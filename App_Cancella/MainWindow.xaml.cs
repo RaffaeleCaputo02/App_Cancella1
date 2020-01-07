@@ -42,6 +42,7 @@ namespace App_Cancella
                 Thread.Sleep(delay);
 
                 if (stop) break;
+                Console.ReadLine();
                 
             }
         }
