@@ -45,5 +45,22 @@ namespace App_Cancella
             lbl_Count1.Content = i.ToString();
         }
 
+        private void Btn_Start2_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                Dispatcher.Invoke(() => UpdateUI(i));
+                Thread.Sleep(1000);
+            }
+        }
+
+        private void Btn_Start3_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                Dispatcher.Invoke(() => UpdateUI(i));
+                Thread.Sleep(1000);
+            }
+        }
     }
 }

@@ -14,8 +14,8 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Button x:Name="btn_Start1" Content="Start" HorizontalAlignment="Left" Height="37" Margin="32,27,0,0" VerticalAlignment="Top" Width="156" FontSize="18" Click="Btn_Start1_Click"/>
-        <Button x:Name="btn_Start2" Content="Start" HorizontalAlignment="Left" Margin="288,27,0,0" VerticalAlignment="Top" Width="164" Height="40" FontSize="18"/>
-        <Button x:Name="btn_Start3" Content="Start" HorizontalAlignment="Left" Margin="552,27,0,0" VerticalAlignment="Top" Width="155" Height="40" FontSize="18"/>
+        <Button x:Name="btn_Start2" Content="Start" HorizontalAlignment="Left" Margin="288,27,0,0" VerticalAlignment="Top" Width="164" Height="40" FontSize="18" Click="Btn_Start2_Click"/>
+        <Button x:Name="btn_Start3" Content="Start" HorizontalAlignment="Left" Margin="552,27,0,0" VerticalAlignment="Top" Width="155" Height="40" FontSize="18" Click="Btn_Start3_Click"/>
         <Label x:Name="lbl_Count1" Content="0" HorizontalAlignment="Left" Height="37" Margin="32,93,0,0" VerticalAlignment="Top" Width="156" OpacityMask="White" Foreground="Black" Background="#FFC7FF07" FontSize="18"/>
         <Label x:Name="lbl_Count2" Content="0" HorizontalAlignment="Left" Height="37" Margin="288,93,0,0" VerticalAlignment="Top" Width="164" OpacityMask="White" Foreground="Black" Background="#FFC7FF07" FontSize="18"/>
         <Label x:Name="lbl_Count3" Content="0" HorizontalAlignment="Left" Height="37" Margin="552,93,0,0" VerticalAlignment="Top" Width="156" OpacityMask="White" Foreground="Black" Background="#FFC7FF07" FontSize="18"/>
