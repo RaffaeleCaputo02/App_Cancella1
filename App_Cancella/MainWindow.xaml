@@ -25,9 +25,10 @@
         <Label x:Name="lbl_Max1" Content="max" HorizontalAlignment="Left" Height="43" Margin="239,157,0,0" VerticalAlignment="Top" Width="55" FontSize="18"/>
         <Label x:Name="lbl_Max2" Content="max" HorizontalAlignment="Left" Height="43" Margin="501,157,0,0" VerticalAlignment="Top" Width="52" FontSize="18"/>
         <Label x:Name="lbl_Delay" Content="delay" HorizontalAlignment="Left" Height="43" Margin="501,224,0,0" VerticalAlignment="Top" Width="57" FontSize="18"/>
-        <Button x:Name="btn_Stop1" Content="Stop" HorizontalAlignment="Left" Height="38" Margin="32,343,0,0" VerticalAlignment="Top" Width="156" FontSize="18" Click="Btn_Stop1_Click"/>
-        <Button x:Name="btn_Stop2" Content="Stop" HorizontalAlignment="Left" Height="38" Margin="288,343,0,0" VerticalAlignment="Top" Width="156" FontSize="18" Click="Btn_Stop2_Click"/>
-        <Button x:Name="btn_Stop3" Content="Stop" HorizontalAlignment="Left" Height="38" Margin="551,343,0,0" VerticalAlignment="Top" Width="156" FontSize="18" Click="Btn_Stop3_Click"/>
+        <Button x:Name="btn_Stop1" Content="Stop" HorizontalAlignment="Left" Height="47" Margin="49,304,0,0" VerticalAlignment="Top" Width="139" Click="Btn_Stop1_Click"/>
+        <Button x:Name="btn_Stop2" Content="Stop" HorizontalAlignment="Left" Height="47" Margin="309,304,0,0" VerticalAlignment="Top" Width="143" Click="Btn_Stop2_Click"/>
+        <Button x:Name="btn_Stop3" Content="Stop" HorizontalAlignment="Left" Height="47" Margin="558,304,0,0" VerticalAlignment="Top" Width="150" Click="Btn_Stop3_Click"/>
+        <Button Content="Stop Tutto" HorizontalAlignment="Left" Height="48" Margin="309,371,0,0" VerticalAlignment="Top" Width="143" Click="Btn_Stop_Click"/>
 
     </Grid>
 </Window>
